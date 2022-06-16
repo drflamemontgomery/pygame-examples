@@ -1,6 +1,12 @@
 import pygame
 
+
+# Class functions declarations first variable must always be 'self'
+# Class Variables have to be used with self.VARIABLE_NAME
+
 class Player:
+
+    # eg. variable = Player(0, 0, 1)
     def __init__(self, x, y, speed):
         # Set Position
         self.x = x
