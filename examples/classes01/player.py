@@ -39,8 +39,12 @@ class Player:
     # Render Graphics to Screen
     def render(self, screen):
         # Update Position of Graphics
-        self.graphicsRect[0] = self.x
-        self.graphicsRect[1] = self.y
+        self.graphicsRect[0] = self.x # [0] = x
+        self.graphicsRect[1] = self.y # [1] = y
+        #                               [2] = width
+        #                               [3] = height
+
+        
 
         # Render Graphics to Screen Buffer
         screen.blit(self.graphics, self.graphicsRect)
