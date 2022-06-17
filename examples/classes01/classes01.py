@@ -11,9 +11,9 @@ size = width, height = 640, 480
 black = 0, 0, 0
 
 # Initialize pygame with size of 640x480
-# and name of "Classes"
+# and name of "Classes 01"
 screen = pygame.display.set_mode(size)
-pygame.display.set_caption("Classes")
+pygame.display.set_caption("Classes 01")
 
 
 player = Player(20, 20, 0.3)
@@ -26,6 +26,8 @@ while True:
             sys.exit(0);
 
 
+    # Update Callbacks are called Here
+            
     keyboardState = pygame.key.get_pressed()
     player.update(keyboardState)
     

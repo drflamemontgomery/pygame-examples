@@ -8,6 +8,7 @@ class Player:
 
     # eg. variable = Player(0, 0, 1)
     def __init__(self, x, y, speed):
+
         # Set Position
         self.x = x
         self.y = y
@@ -16,8 +17,8 @@ class Player:
         self.speed = speed
 
         # Load Graphics
-        self.graphics = pygame.image.load("pygame.png")
-        self.graphicsRect = self.graphics.get_rect()
+        self.image = pygame.image.load("pygame.png")
+        self.rect = self.image.get_rect()
 
     # Pass keyboard state to check inputs and update position
     def update(self, keyboardState):
@@ -38,14 +39,11 @@ class Player:
 
     # Render Graphics to Screen
     def render(self, screen):
-        # Update Position of Graphics
-        self.graphicsRect[0] = self.x # [0] = x
-        self.graphicsRect[1] = self.y # [1] = y
-        #                               [2] = width
-        #                               [3] = height
 
-        
+        # Update Position of Graphics
+        self.rect.left = self.x
+        self.rect.top  = self.y
 
         # Render Graphics to Screen Buffer
-        screen.blit(self.graphics, self.graphicsRect)
+        screen.blit(self.image, self.rect)
         
