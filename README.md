@@ -5,6 +5,7 @@
 - Image01
 - Image02
 - Classes01
+- Classes02
 
 # SimpleWindow
 
@@ -25,5 +26,12 @@ Move logo with Arrow Keys
 
 Opens a window
 Implement Logo as a class example
+Display pygame logo
+Move logo with Arrow Keys
+
+# Classes02
+
+Opens a window
+Implement Logo as a pygame.sprite.Sprite extended class example
 Display pygame logo
 Move logo with Arrow Keys
