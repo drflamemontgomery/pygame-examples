@@ -46,8 +46,8 @@ class CollidableRect(pygame.sprite.Sprite):
     # Render Graphics to Screen
     def render(self, screen, rectToTestCollision):
         # Update Position of Graphics
-        self.rect.left = self.x
-        self.rect.top = self.y
+        self.rect.x = self.x
+        self.rect.y = self.y
 
         # If hit turn a color
         # Else stay white
