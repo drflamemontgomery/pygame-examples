@@ -21,6 +21,11 @@ while True:
         if event.type == pygame.QUIT:
             sys.exit(0);
             
+
+    # Update Calls are called here
+
+    
+            
     screen.fill(black)
     # Drawing calls are called here 
 
