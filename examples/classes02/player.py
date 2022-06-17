@@ -51,7 +51,6 @@ class Player(pygame.sprite.Sprite):
         # Update Position of Graphics
         self.rect.left = self.x
         self.rect.top = self.y
-
         
 
         # Render Graphics to Screen Buffer
