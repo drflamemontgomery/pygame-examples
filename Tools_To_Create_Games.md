@@ -54,3 +54,21 @@ The kind of tools that you will need to create a decent game can be categorised 
     https://deepnight.net/tools/rpg-map/
     - Windows
     - Run in Browser
+
+# Programming IDE/Text Editors
+  - Visual Studio: Great IDE for languages including python. Inbuilt debugger. Great for beginners. Free to download
+    - Windows
+    - Mac
+    - Linux
+  - PyCharm: Good IDE for python. Free to download for basic python development.
+    - Windows
+    - Mac
+    - Linux
+  - Emacs: Fantastic Text Editor that has a steep learning curve. Good for advanced users. Free to download
+    - Windows
+    - Mac
+    - Linux
+  - Sublime Text: Good Text Editor for beginners
+    - Windows
+    - Mac
+    - Linux
